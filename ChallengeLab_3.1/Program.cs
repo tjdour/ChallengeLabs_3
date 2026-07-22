@@ -7,7 +7,7 @@ internal class Program
         Console.WriteLine("Enter a word to check if Palindrome: ");
         string pal = Console.ReadLine();
 
-        Console.WriteLine($"is {pal} a palindrome? {isPal(pal)}");
+        Console.WriteLine($"Is {pal} a palindrome? {isPal(pal)}");
 
         bool isPal(string pal)
         {
